@@ -1,0 +1,90 @@
+@media only screen  and (min-width:320px)  and (max-width: 550px) {
+        .tagline {
+        width: 98%;
+        margin-top: 40px;
+    }
+
+    .landing .card_landing .information .image {
+        margin-right: 30px;
+        vertical-align: middle;
+        margin: auto;
+    }
+
+    .landing .card_landing .information .image img {
+        margin-right: 30px;
+        vertical-align: middle;
+        max-width: 80px;
+    }
+
+
+    .landing .card_landing .information .info_image a {
+        margin: 4px !important;
+    }
+
+    .landing .card_landing .information .info_image .headline {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .landing .card_landing .information .info_image .location_date {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .landing .card_landing .information .info_image .member {
+        color: #7a7a85;
+        display: flex;
+        font-weight: 500;
+       font-size: 12px;
+       line-height: 24px;
+        vertical-align: middle;
+    }
+
+
+    .landing .card_landing .information .info_image .member span:nth-child(odd) {
+        display: block;
+        content: '';
+        background-color: red;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        position: relative;
+        margin-left: -8px;
+    }
+
+    .landing .card_landing .information .info_image .member span:nth-child(even) {
+        background-color: blue;
+        display: block;
+        content: '';
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        position: relative;
+        margin-left: -8px;
+    }
+
+
+    .landing .card_landing .timeline {
+        margin-top: 16px;
+        margin-bottom: 20px;
+        display: flex;
+        font-family: poppins, sans-serif;
+        font-weight: 500;
+        margin-left: 0%;
+        font-size: 20px;
+    }
+
+    .card .card_info {
+        min-width: 100px;
+        margin: 10px;
+        padding: 30px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 8px;
+        min-height: 100%;
+    }
+
+
+
+}

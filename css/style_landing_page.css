@@ -1,0 +1,200 @@
+@media only screen and (min-width:552px) and (max-width:1199px) {
+
+}
+    body {
+        background-color: #f7c9b9;
+    }
+
+    .main_Container {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    .tagline {
+        width: 98%;
+        margin-top: 40px;
+    }
+
+    .tagline h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .landing {
+        width: 98%;
+        margin-top: 40px;
+        font-family: poppins, sans-serif;
+    }
+
+    .landing .card_landing {
+        width: 100%;
+        background-color: white;
+        border-radius: 8px;
+        padding: 3px;
+    }
+
+    .landing .card_landing .information {
+        display: flex;
+        margin: 10px 25px;
+        right: 0;
+    }
+
+    .landing .card_landing .information .image {
+        margin-right: 30px;
+        vertical-align: middle;
+    }
+
+    .landing .card_landing .information .image img {
+        max-width: 250px;
+    }
+
+    .landing .card_landing .information .info_image {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .landing .card_landing .information .info_image a {
+        margin: 10px;
+    }
+
+    .landing .card_landing .information .info_image .headline {
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .landing .card_landing .information .info_image .location_date {
+        font-size: 19px;
+    }
+
+    .landing .card_landing .information .info_image .member {
+        color: #7a7a85;
+        display: flex;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        vertical-align: middle;
+    }
+
+    .landing .card_landing .information .info_image .member span:nth-child(odd) {
+        display: block;
+        content: '';
+        background-color: red;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        position: relative;
+        margin-left: -8px;
+    }
+
+    .landing .card_landing .information .info_image .member span:nth-child(even) {
+        background-color: blue;
+        display: block;
+        content: '';
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        position: relative;
+        margin-left: -8px;
+    }
+
+    .landing .card_landing .timeline {
+        position: relative;
+        margin-top: -70px;
+        margin-bottom: 20px;
+        display: flex;
+        font-family: poppins, sans-serif;
+        font-weight: 500;
+        margin-left: 25%;
+        font-size: 32px;
+    }
+
+    .landing .card_landing .timeline p {
+        margin-left: 10px;
+    }
+
+    .landing .card_landing .timeline p span {
+        padding: 5px;
+        background-color: #e6e6e6;
+        border-radius: 4px;
+        margin: 0px 6px;
+    }
+
+    .landing .card_landing .timeline .timer {
+        font-weight: bold;
+    }
+
+    .card {
+        width: 98%;
+        display: flex;
+        margin-top: 40px;
+        font-family: 'poppins';
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card .card_info {
+        min-width: 150px;
+        margin: 10px;
+        padding: 30px;
+        background-color: white;
+
+        text-align: center;
+        border-radius: 8px;
+        min-height: 100%;
+    }
+    .card .card_info .thumb{
+        display: flex;
+        flex-direction: column;
+        border-left: 1px solid #7a7a85;
+        margin: 5px 0px;
+
+    }
+
+    .card .card_info .thumb::after{
+      position: absolute;
+      display: block;
+      content: '';
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      background-color: #7a7a85;
+      margin-top: 104px;
+      margin-left: -5px;
+
+    }
+    .card .card_info .thumb::before{
+      position: absolute;
+      display: block;
+      content: '';
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      background-color: #7a7a85;
+      margin-top: 0px;
+      margin-left: -5px;
+
+    }
+
+
+
+    .card .card_info h1 {
+        font-size: 70px;
+    }
+
+    .card .card_info a {
+        margin-top: 24px;
+        color: #7a7a85;
+    }
+
+    .card .card_info span.bookmarks_icon {
+        color: red;
+        margin-top: -50px;
+        margin-left: -10px;
+        position: absolute;
+        font-size: 34px;
+    }
+
