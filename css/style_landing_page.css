@@ -1,6 +1,8 @@
-@media only screen and (min-width:552px) and (max-width:1199px) {
+   @font-face {
+         font-family: "DECRYPT 01";
+         src: url('../font/Decrypt01.otf')format("opentype");
+         }
 
-}
     body {
         background-color: #f7c9b9;
     }
@@ -182,6 +184,7 @@
 
 
     .card .card_info h1 {
+        font-family: "DECRYPT 01";
         font-size: 70px;
     }
 
